@@ -1,0 +1,11 @@
+{
+    "name": "Commands",
+    "alias": "commands",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Commands\\app\\Providers\\CommandsServiceProvider"
+    ],
+    "files": []
+}

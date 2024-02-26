@@ -1,0 +1,31 @@
+{
+    "name": "nwidart/commands",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Commands\\": "",
+            "Modules\\Commands\\App\\": "app/",
+            "Modules\\Commands\\Database\\Factories\\": "database/factories/",
+            "Modules\\Commands\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Commands\\Tests\\": "tests/"
+        }
+    }
+}

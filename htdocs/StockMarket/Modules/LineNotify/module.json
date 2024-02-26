@@ -1,0 +1,11 @@
+{
+    "name": "LineNotify",
+    "alias": "linenotify",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LineNotify\\app\\Providers\\LineNotifyServiceProvider"
+    ],
+    "files": []
+}
